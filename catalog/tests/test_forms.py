@@ -59,7 +59,3 @@ class RenewBookFormTest(TestCase):
         """
         form = RenewBookForm()
         self.assertEqual(form.fields['renewal_date'].help_text,'Enter a date between now and 4 weeks (default 3).')
-        
-    def test_this_should_fail(self):
-        ''' This test should fail '''
-        self.assertEqual(1,2)
